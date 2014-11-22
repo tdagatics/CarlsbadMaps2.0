@@ -16,6 +16,21 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    NSManagedObjectContext *context = [self managedObjectContext];
+    NSManagedObjectContext *pointOfInterest = [NSEntityDescription insertNewObjectForEntityForName:@"Point of Interest" inManagedObjectContext:context];
+    [pointOfInterest setValue:@"1600 Amphitheater Parkway" forKey:@"address"];
+    NSError *error;
+    if (![context save:&error]) {
+        NSLog(@"Couldn't save: %@", [error localizedDescription]);
+    }
+    
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+    NSEntityDescription *entity = [NSEntityDescription entityForName:@"Point of Interest" inManagedObjectContext:context];
+    [fetchRequest setEntity:entity];
+    NSArray *fetchedObjects = [context executeFetchRequest:fetchRequest error:&error];
+    for (NSManagedObject *pointOfInterest in fetchedObjects) {
+        NSLog(@"Address: %@", [pointOfInterest valueForKey:@"address"]);
+    }
     
     // Override point for customization after application launch.
     return YES;
