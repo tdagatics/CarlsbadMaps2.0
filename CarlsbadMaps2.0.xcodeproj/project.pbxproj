@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43F4B8DD1A213AD200DCBB67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F4B8DC1A213AD200DCBB67 /* main.m */; };
+		43F4B8E01A213AD200DCBB67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F4B8DF1A213AD200DCBB67 /* AppDelegate.m */; };
+		43F4B8E31A213AD200DCBB67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F4B8E21A213AD200DCBB67 /* ViewController.m */; };
+		43F4B8E61A213AD200DCBB67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F4B8E41A213AD200DCBB67 /* Main.storyboard */; };
+		43F4B8E81A213AD200DCBB67 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F4B8E71A213AD200DCBB67 /* Images.xcassets */; };
+		43F4B8EB1A213AD200DCBB67 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43F4B8E91A213AD200DCBB67 /* LaunchScreen.xib */; };
+		43F4B8F71A213AD200DCBB67 /* CarlsbadMaps2_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F4B8F61A213AD200DCBB67 /* CarlsbadMaps2_0Tests.m */; };
+		43F4B9021A213B6400DCBB67 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F4B9011A213B6400DCBB67 /* MapViewController.m */; };
+		43F4B9041A213CED00DCBB67 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F4B9031A213CED00DCBB67 /* MapKit.framework */; };
+		43F4B90A1A21404700DCBB67 /* PointsOfInterest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43F4B9081A21404700DCBB67 /* PointsOfInterest.xcdatamodeld */; };
+		43F4B90D1A21413A00DCBB67 /* PointOfInterest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F4B90C1A21413A00DCBB67 /* PointOfInterest.m */; };
+		43F4B9101A21431C00DCBB67 /* PointOfInterestAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F4B90F1A21431C00DCBB67 /* PointOfInterestAnnotation.m */; };
+		43F4B9121A21494F00DCBB67 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F4B9111A21494F00DCBB67 /* CoreData.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43F4B8F11A213AD200DCBB67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43F4B8CF1A213AD200DCBB67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43F4B8D61A213AD200DCBB67;
+			remoteInfo = CarlsbadMaps2.0;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43F4B8D71A213AD200DCBB67 /* CarlsbadMaps2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarlsbadMaps2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F4B8DB1A213AD200DCBB67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43F4B8DC1A213AD200DCBB67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43F4B8DE1A213AD200DCBB67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		43F4B8DF1A213AD200DCBB67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		43F4B8E11A213AD200DCBB67 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		43F4B8E21A213AD200DCBB67 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		43F4B8E51A213AD200DCBB67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43F4B8E71A213AD200DCBB67 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		43F4B8EA1A213AD200DCBB67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		43F4B8F01A213AD200DCBB67 /* CarlsbadMaps2.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarlsbadMaps2.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F4B8F51A213AD200DCBB67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43F4B8F61A213AD200DCBB67 /* CarlsbadMaps2_0Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarlsbadMaps2_0Tests.m; sourceTree = "<group>"; };
+		43F4B9001A213B6400DCBB67 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		43F4B9011A213B6400DCBB67 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		43F4B9031A213CED00DCBB67 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		43F4B9091A21404700DCBB67 /* PointsOfInterest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PointsOfInterest.xcdatamodel; sourceTree = "<group>"; };
+		43F4B90B1A21413A00DCBB67 /* PointOfInterest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointOfInterest.h; sourceTree = "<group>"; };
+		43F4B90C1A21413A00DCBB67 /* PointOfInterest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointOfInterest.m; sourceTree = "<group>"; };
+		43F4B90E1A21431C00DCBB67 /* PointOfInterestAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointOfInterestAnnotation.h; sourceTree = "<group>"; };
+		43F4B90F1A21431C00DCBB67 /* PointOfInterestAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointOfInterestAnnotation.m; sourceTree = "<group>"; };
+		43F4B9111A21494F00DCBB67 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43F4B8D41A213AD200DCBB67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F4B9121A21494F00DCBB67 /* CoreData.framework in Frameworks */,
+				43F4B9041A213CED00DCBB67 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F4B8ED1A213AD200DCBB67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43F4B8CE1A213AD200DCBB67 = {
+			isa = PBXGroup;
+			children = (
+				43F4B9111A21494F00DCBB67 /* CoreData.framework */,
+				43F4B9031A213CED00DCBB67 /* MapKit.framework */,
+				43F4B8D91A213AD200DCBB67 /* CarlsbadMaps2.0 */,
+				43F4B8F31A213AD200DCBB67 /* CarlsbadMaps2.0Tests */,
+				43F4B8D81A213AD200DCBB67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43F4B8D81A213AD200DCBB67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43F4B8D71A213AD200DCBB67 /* CarlsbadMaps2.0.app */,
+				43F4B8F01A213AD200DCBB67 /* CarlsbadMaps2.0Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43F4B8D91A213AD200DCBB67 /* CarlsbadMaps2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				43F4B8DE1A213AD200DCBB67 /* AppDelegate.h */,
+				43F4B8DF1A213AD200DCBB67 /* AppDelegate.m */,
+				43F4B8E11A213AD200DCBB67 /* ViewController.h */,
+				43F4B8E21A213AD200DCBB67 /* ViewController.m */,
+				43F4B8E41A213AD200DCBB67 /* Main.storyboard */,
+				43F4B9001A213B6400DCBB67 /* MapViewController.h */,
+				43F4B9011A213B6400DCBB67 /* MapViewController.m */,
+				43F4B90E1A21431C00DCBB67 /* PointOfInterestAnnotation.h */,
+				43F4B90F1A21431C00DCBB67 /* PointOfInterestAnnotation.m */,
+				43F4B9081A21404700DCBB67 /* PointsOfInterest.xcdatamodeld */,
+				43F4B90B1A21413A00DCBB67 /* PointOfInterest.h */,
+				43F4B90C1A21413A00DCBB67 /* PointOfInterest.m */,
+				43F4B8E71A213AD200DCBB67 /* Images.xcassets */,
+				43F4B8E91A213AD200DCBB67 /* LaunchScreen.xib */,
+				43F4B8DA1A213AD200DCBB67 /* Supporting Files */,
+			);
+			path = CarlsbadMaps2.0;
+			sourceTree = "<group>";
+		};
+		43F4B8DA1A213AD200DCBB67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43F4B8DB1A213AD200DCBB67 /* Info.plist */,
+				43F4B8DC1A213AD200DCBB67 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43F4B8F31A213AD200DCBB67 /* CarlsbadMaps2.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				43F4B8F61A213AD200DCBB67 /* CarlsbadMaps2_0Tests.m */,
+				43F4B8F41A213AD200DCBB67 /* Supporting Files */,
+			);
+			path = CarlsbadMaps2.0Tests;
+			sourceTree = "<group>";
+		};
+		43F4B8F41A213AD200DCBB67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43F4B8F51A213AD200DCBB67 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43F4B8D61A213AD200DCBB67 /* CarlsbadMaps2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43F4B8FA1A213AD200DCBB67 /* Build configuration list for PBXNativeTarget "CarlsbadMaps2.0" */;
+			buildPhases = (
+				43F4B8D31A213AD200DCBB67 /* Sources */,
+				43F4B8D41A213AD200DCBB67 /* Frameworks */,
+				43F4B8D51A213AD200DCBB67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarlsbadMaps2.0;
+			productName = CarlsbadMaps2.0;
+			productReference = 43F4B8D71A213AD200DCBB67 /* CarlsbadMaps2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43F4B8EF1A213AD200DCBB67 /* CarlsbadMaps2.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43F4B8FD1A213AD200DCBB67 /* Build configuration list for PBXNativeTarget "CarlsbadMaps2.0Tests" */;
+			buildPhases = (
+				43F4B8EC1A213AD200DCBB67 /* Sources */,
+				43F4B8ED1A213AD200DCBB67 /* Frameworks */,
+				43F4B8EE1A213AD200DCBB67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43F4B8F21A213AD200DCBB67 /* PBXTargetDependency */,
+			);
+			name = CarlsbadMaps2.0Tests;
+			productName = CarlsbadMaps2.0Tests;
+			productReference = 43F4B8F01A213AD200DCBB67 /* CarlsbadMaps2.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43F4B8CF1A213AD200DCBB67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Black Rail Capital";
+				TargetAttributes = {
+					43F4B8D61A213AD200DCBB67 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					43F4B8EF1A213AD200DCBB67 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 43F4B8D61A213AD200DCBB67;
+					};
+				};
+			};
+			buildConfigurationList = 43F4B8D21A213AD200DCBB67 /* Build configuration list for PBXProject "CarlsbadMaps2.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43F4B8CE1A213AD200DCBB67;
+			productRefGroup = 43F4B8D81A213AD200DCBB67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43F4B8D61A213AD200DCBB67 /* CarlsbadMaps2.0 */,
+				43F4B8EF1A213AD200DCBB67 /* CarlsbadMaps2.0Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43F4B8D51A213AD200DCBB67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F4B8E61A213AD200DCBB67 /* Main.storyboard in Resources */,
+				43F4B8EB1A213AD200DCBB67 /* LaunchScreen.xib in Resources */,
+				43F4B8E81A213AD200DCBB67 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F4B8EE1A213AD200DCBB67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43F4B8D31A213AD200DCBB67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F4B90D1A21413A00DCBB67 /* PointOfInterest.m in Sources */,
+				43F4B8E31A213AD200DCBB67 /* ViewController.m in Sources */,
+				43F4B8E01A213AD200DCBB67 /* AppDelegate.m in Sources */,
+				43F4B8DD1A213AD200DCBB67 /* main.m in Sources */,
+				43F4B9101A21431C00DCBB67 /* PointOfInterestAnnotation.m in Sources */,
+				43F4B9021A213B6400DCBB67 /* MapViewController.m in Sources */,
+				43F4B90A1A21404700DCBB67 /* PointsOfInterest.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F4B8EC1A213AD200DCBB67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F4B8F71A213AD200DCBB67 /* CarlsbadMaps2_0Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43F4B8F21A213AD200DCBB67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43F4B8D61A213AD200DCBB67 /* CarlsbadMaps2.0 */;
+			targetProxy = 43F4B8F11A213AD200DCBB67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43F4B8E41A213AD200DCBB67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43F4B8E51A213AD200DCBB67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43F4B8E91A213AD200DCBB67 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43F4B8EA1A213AD200DCBB67 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43F4B8F81A213AD200DCBB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43F4B8F91A213AD200DCBB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43F4B8FB1A213AD200DCBB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CarlsbadMaps2.0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43F4B8FC1A213AD200DCBB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CarlsbadMaps2.0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		43F4B8FE1A213AD200DCBB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CarlsbadMaps2.0Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarlsbadMaps2.0.app/CarlsbadMaps2.0";
+			};
+			name = Debug;
+		};
+		43F4B8FF1A213AD200DCBB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CarlsbadMaps2.0Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarlsbadMaps2.0.app/CarlsbadMaps2.0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43F4B8D21A213AD200DCBB67 /* Build configuration list for PBXProject "CarlsbadMaps2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F4B8F81A213AD200DCBB67 /* Debug */,
+				43F4B8F91A213AD200DCBB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43F4B8FA1A213AD200DCBB67 /* Build configuration list for PBXNativeTarget "CarlsbadMaps2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F4B8FB1A213AD200DCBB67 /* Debug */,
+				43F4B8FC1A213AD200DCBB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43F4B8FD1A213AD200DCBB67 /* Build configuration list for PBXNativeTarget "CarlsbadMaps2.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F4B8FE1A213AD200DCBB67 /* Debug */,
+				43F4B8FF1A213AD200DCBB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		43F4B9081A21404700DCBB67 /* PointsOfInterest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				43F4B9091A21404700DCBB67 /* PointsOfInterest.xcdatamodel */,
+			);
+			currentVersion = 43F4B9091A21404700DCBB67 /* PointsOfInterest.xcdatamodel */;
+			path = PointsOfInterest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 43F4B8CF1A213AD200DCBB67 /* Project object */;
+}
