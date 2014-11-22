@@ -12,6 +12,7 @@
 @implementation PointOfInterest
 
 @synthesize managedObjectContext;
+@synthesize context;
 
 @dynamic address;
 @dynamic name;
